@@ -1,10 +1,10 @@
 {
-  "title": "installingapp",
+  "title": "install.json",
   "type": "object",
   "definitions": {
     "src": {
       "type": "string",
-      "title": "https://github.com/Undergroundsy/mailin-work-order-bigcommerce/",
+      "title": "https://github.com/Undergroundsy/mailin-work-order-bigcommerce/install.json",
       "author": "Undergroundsy Development"
       "description": "specific to set big comm store id"
     },
