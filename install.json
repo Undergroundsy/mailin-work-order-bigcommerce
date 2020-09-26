@@ -16,8 +16,8 @@
     {
       "type": "TXT",
       "content": "Managed TXT Record",
-      "name": "Created by create-cloudflare-app",
-      "ttl": 120
+      "name": "360mailinrepair.com",
+      "ttl": 
     }
   ],
   "preview": {
@@ -47,7 +47,7 @@
         "type": "string",
         "format": "richtext",
         "order": 1,
-        "default": "<h1>Welcome to Cloudflare Apps!</h1><p>Download this app every time you want to make a new project.</p><p>This app renders a message to the user's website and sets a TXT DNS record with a value of 'Hello DNS'."
+        "default": "<p>myapp</p>"
       }
     }
   }
