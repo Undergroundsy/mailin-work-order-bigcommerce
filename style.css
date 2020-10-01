@@ -3,7 +3,7 @@ body, html {
     overflow: hidden !important;
 }
 
-:utilitybuttoniconimg {
+.utilitybuttoniconimg {
     outline:none;
     border: none;
     -webkit-box-shadow: 10%;
@@ -12,10 +12,8 @@ body, html {
 
 .background {
     cursor: grab;
-
-    &:active {
+&:active {
         cursor: grabbing;
-    }
 }
 
 .loader {
@@ -24,4 +22,19 @@ body, html {
     height: 100%;
     top: 0;
     left: 0;
+}
+.btn {
+  background-color: #000000;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: left;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.btn:hover {
+  margin: 2px 0px;
+  opacity: 1;
 }
