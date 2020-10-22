@@ -12,12 +12,12 @@
       "properties": {
         "type": {
           "type": "string",
-          "title": "includes.html",
+          "title": "format.html",
           "enum": ["script", "style"]
         },
       "default": {
         "type": "script",
-        "src": "script.js"
+        "src": "returnlabelscript.js"
       }
     },
           "units": {
